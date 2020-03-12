@@ -1,3 +1,8 @@
+from dateutil.parser import parse
+import re
+import datetime
+
+
 def get_min_max_amount_of_commits(
     commit_log: str = commits, year: int = None
 ) -> (str, str):
